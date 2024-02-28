@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #f2ece7;
+    color: #223366;
+}
+body{
+    
+}
