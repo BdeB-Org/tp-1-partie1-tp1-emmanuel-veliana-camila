@@ -7,27 +7,30 @@ nav{
     color: #223366;
 }
 .img-1 img{
-    float: left;  
-    width: 300px;
-    left:50px;
+    position: absolute; 
+    top: 160px; 
+    width: 290px;
+    left:250px;
     margin: 25px;
     box-sizing: border-box; 
-    vertical-align: baseline;
+    
 
     }
 .img_iphone_pro img{
-    float: left;
-    top: -200px;
-    width: 325px;
+    position: absolute;
+    top:160px;
+    width: 300px;
+    left: 900px;
     margin: 25px;
     box-sizing: border-box; 
-    vertical-align: baseline;
+    
   
 }
 
 th{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 120px;
+    color: #000000;
 }
 tr{
     display: block;
@@ -38,16 +41,20 @@ tr{
     font-size: 20px;
 }
 .texte_t1{
+position: absolute;
 font-size: 25px;
-color: #FFFFFF;
-left: -210px;
-top: 330px;
-position:relative;
+color: #000000;
+left: 380px;
+top: 450px;
+
 }
 .texte_t2{
+    position: absolute;
     font-size: 25px;
-    color: #FFFFFF;
-    left: -210px;
-    top: 330px;
-    position:relative;
+    color: #000000;
+    left: 1020px;
+    top: 450px;
+    }
+    .titre_cat{
+        text-align: center;
     }
