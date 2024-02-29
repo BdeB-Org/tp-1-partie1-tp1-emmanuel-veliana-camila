@@ -20,3 +20,11 @@ nav{
     vertical-align: top;
   
 }
+tr{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #775050;
+    width: 100%; 
+}
