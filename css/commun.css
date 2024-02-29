@@ -6,8 +6,17 @@ nav{
     background-color: #f2ece7;
     color: #223366;
 }
-.image_iphone{
-    width: auto;
-    
-    
+.img-1 img{
+    float:left; /* ou inline-flex */
+    max-width: 300px; /* Réglez la largeur maximale pour occuper la moitié de l'espace disponible, soustrayez la marge si vous en avez */
+    box-sizing: border-box; /* Assurez-vous que la largeur maximale inclut également les marges */
+    vertical-align: top;
+
+    }
+.img_iphone_pro img{
+    float: left; 
+    max-width: 300px; /* Réglez la largeur maximale pour occuper la moitié de l'espace disponible, soustrayez la marge si vous en avez */
+    box-sizing: border-box; /* Assurez-vous que la largeur maximale inclut également les marges */
+    vertical-align: top;
+  
 }
