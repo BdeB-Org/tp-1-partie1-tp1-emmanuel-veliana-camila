@@ -7,24 +7,47 @@ nav{
     color: #223366;
 }
 .img-1 img{
-    float:left; /* ou inline-flex */
-    max-width: 300px; /* Réglez la largeur maximale pour occuper la moitié de l'espace disponible, soustrayez la marge si vous en avez */
-    box-sizing: border-box; /* Assurez-vous que la largeur maximale inclut également les marges */
-    vertical-align: top;
+    float: left;  
+    width: 300px;
+    left:50px;
+    margin: 25px;
+    box-sizing: border-box; 
+    vertical-align: baseline;
 
     }
 .img_iphone_pro img{
-    float: left; 
-    max-width: 300px; /* Réglez la largeur maximale pour occuper la moitié de l'espace disponible, soustrayez la marge si vous en avez */
-    box-sizing: border-box; /* Assurez-vous que la largeur maximale inclut également les marges */
-    vertical-align: top;
+    float: left;
+    top: -200px;
+    width: 325px;
+    margin: 25px;
+    box-sizing: border-box; 
+    vertical-align: baseline;
   
 }
-tr{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #775050;
-    width: 100%; 
+
+th{
+    display: inline-block;
+    margin-right: 20px;
 }
+tr{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.texte_t1{
+font-size: 25px;
+color: #FFFFFF;
+left: -210px;
+top: 330px;
+position:relative;
+}
+.texte_t2{
+    font-size: 25px;
+    color: #FFFFFF;
+    left: -210px;
+    top: 330px;
+    position:relative;
+    }
