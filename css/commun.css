@@ -58,3 +58,12 @@ top: 450px;
     .Titre_cat{
         text-align: center;
     }
+
+    .img-3 img{
+            position: relative; 
+            width: 290px;
+            left:250px;
+            margin: 25px;
+            box-sizing: border-box; 
+
+    }
